@@ -16,6 +16,13 @@
   --wall-type-heading6: 500 16px/1.5 Raleway;
 }
 
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   padding: 0;
@@ -23,6 +30,8 @@ body {
 }
 h1 {
   font: var(--wall-type-heading1);
+  text-align: center;
+  color: var(--wall-color-primary);
 }
 h2 {
   font: var(--wall-type-heading2);
